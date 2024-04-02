@@ -4,10 +4,6 @@
              x:Class="pou3.MainPage"
              Shell.NavBarIsVisible="false">
     
-       
-        
-
-
 
 <Grid>
            <Grid.RowDefinitions>
@@ -28,21 +24,22 @@
                    Grid.RowSpan="3"
                    Grid.ColumnSpan="4"/>
 
-           <Label Text="em ação animais fofos"
-                  TextColor="#e36905"
-                  FontFamily="Fonte.ttf"
-                  FontSize="50"
-                  HorizontalOptions="Center"
-                  HorizontalTextAlignment="Center"
-                  Grid.Row="1"
-                  Grid.ColumnSpan="4"/>
+ <Label Text="em ação animais fofos"
+        TextColor="#e36905"
+        FontFamily="Fonte.ttf"
+        FontSize="50"
+        HorizontalOptions="Center"
+        HorizontalTextAlignment="Center"
+        Grid.Row="1"
+        Grid.ColumnSpan="4"/>
   
 
            <Button Text="comida"
                    BackgroundColor="#1e8a03"
                    FontSize="20"
                    Grid.Row="2"
-                   Grid.Column="0"/>
+                   Grid.Column="0"
+                   />
                    
   
             <Button Text="agua"
@@ -66,6 +63,18 @@
                    Grid.Column="3" />
       
 
-           
+      <Image Source="pinscher.png"
+             Grid.Row="1"
+             Grid.Column="2"/>
+                
+
+
+    
+
+
+
+
+
+
 </Grid>
 </ContentPage>
