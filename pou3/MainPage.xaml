@@ -18,55 +18,57 @@
              <ColumnDefinition Width="*"/>
            </Grid.ColumnDefinitions>
   
+     <ProgressBar x:name="troc"/>
+
             <Image Source="floresta.jpg"
-                  Aspect="AspectFill"
+                   Aspect="AspectFill"
                    Grid.Row="0"
                    Grid.RowSpan="3"
                    Grid.ColumnSpan="4"/>
 
- <Label Text="em ação animais fofos"
-        TextColor="#e36905"
-        FontFamily="Fonte.ttf"
-        FontSize="50"
-        HorizontalOptions="Center"
-        HorizontalTextAlignment="Center"
-        Grid.Row="1"
-        Grid.ColumnSpan="4"/>
+            <Label Text="em ação animais fofos"
+                   TextColor="#e36905"
+                   FontFamily="Fonte.ttf"
+                   FontSize="50"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="1"
+                   Grid.ColumnSpan="4"/>
   
 
-           <Button Text="comida"
+            <ImageButton source="comida.png"                 
                    BackgroundColor="#1e8a03"
                    FontSize="20"
                    Grid.Row="2"
-                   Grid.Column="0"
-                   />
+                   Grid.Column="0"/>
                    
   
-            <Button Text="agua"
+            <ImageButton source="gota.png"             
                    BackgroundColor="#1e8a03"
                    FontSize="20"
                    Grid.Row="2"
                    Grid.Column="1" />
   
    
-            <Button Text="feliz"
+            <ImageButton source="brincar.jpg"          
                    BackgroundColor="#1e8a03"
                    FontSize="20"
                    Grid.Row="2"
                    Grid.Column="2" />
   
 
-            <Button Text="trocatroca"
+            <ImageButton source="troca.png"           
                    BackgroundColor="#1e8a03"
                    FontSize="20"
                    Grid.Row="2"
                    Grid.Column="3" />
       
 
-      <Image Source="pinscher.png"
-             Grid.Row="1"
-             Grid.Column="2"/>
-                
+           <Image 
+                  Source="pinscher.png"
+                  Grid.Row="1"
+                  Grid.Column="2"/>
+                     
 
 
     
