@@ -18,7 +18,7 @@
              <ColumnDefinition Width="*"/>
            </Grid.ColumnDefinitions>
   
-     <ProgressBar x:name="troc"/>
+   
 
             <Image Source="floresta.jpg"
                    Aspect="AspectFill"
@@ -70,6 +70,10 @@
                   Grid.Column="2"/>
                      
 
+
+       <ProgressBar x:Name="barreiro"
+                    grid.row="0"
+                    Grid.Column="3"/>
 
     
 
