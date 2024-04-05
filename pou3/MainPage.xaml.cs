@@ -4,16 +4,16 @@ namespace pou3;
 
 public partial class MainPage : ContentPage
 {
-	dog1 atual;
-    cachorro = new cachorro();
-	cachmalvadao = new cachmalvadao();
+
+    poodol = new poodol();
+	pinscher = new pinscher();
 //_________________________________________________________________________
 	public MainPage()
 
 	{
 	//	InitializeComponent();
 //
-	//        atual = cachorro;
+	//        atual = poodol;
 //
     //        imgdog1.source  =  atual.getonomedaimagen();
 //

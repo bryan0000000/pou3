@@ -5,20 +5,24 @@ public class dog1
       public double comida;
       public double agua;
       public double diversao;
+     protected double GetnomedaFoto;
 
 
 
       public dog1()
+
+//________________________________________________________________________________________
       {
-      
        comida = 0;
        agua = 0;
        diversao = 0;
+       GetnomedaFoto="";
       }
-
-    public string getfoto()
+      
+//________________________________________________________________________________________
+    public string pinscher()
         {
-            return onomedafoto
+            return GetnomedaFoto;
         }  
 //________________________________________________________________________________________
       public void setcomida (double c)

@@ -64,19 +64,28 @@
                    Grid.Column="3" />
       
 
-           <Image 
-                  Source="pinscher.png"
+           <Image x:name="cachorrocomsandalia"
                   Grid.Row="1"
                   Grid.Column="2"/>
                      
 
 
-       <ProgressBar x:Name="barreiro"
+       <ProgressBar x:Name="comida"
                     grid.row="0"
                     Grid.Column="3"/>
 
-    
 
+       <ProgressBar x:Name="agua"
+                    grid.row="0"
+                    Grid.Column="3"/>
+                    
+
+       <ProgressBar x:Name="diversao"
+                    grid.row="0"
+                    Grid.Column="3"/>
+
+      
+     
 
 
 
