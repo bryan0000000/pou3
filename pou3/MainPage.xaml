@@ -6,6 +6,7 @@
     
 
 <Grid>
+ 
            <Grid.RowDefinitions>
              <RowDefinition Height="30"/>
              <RowDefinition Height="*"/>
@@ -18,7 +19,7 @@
              <ColumnDefinition Width="*"/>
            </Grid.ColumnDefinitions>
   
-   
+  
 
             <Image Source="floresta.jpg"
                    Aspect="AspectFill"
@@ -64,23 +65,26 @@
                    Grid.Column="3" />
       
 
-           <Image x:name="cachorrocomsandalia"
+           <Image x:Name="imgpersonage"
                   Grid.Row="1"
                   Grid.Column="2"/>
                      
 
 
-       <ProgressBar x:Name="comida"
+       <ProgressBar x:Name="Progresscomida"
+                    Progress="0.8" 
                     grid.row="0"
                     Grid.Column="3"/>
 
 
-       <ProgressBar x:Name="agua"
+       <ProgressBar x:Name="Progressagua"
+                    Progress="0.8"
                     grid.row="0"
                     Grid.Column="3"/>
                     
 
-       <ProgressBar x:Name="diversao"
+       <ProgressBar x:Name="Progressdiversao"
+                    Progress="0.8" 
                     grid.row="0"
                     Grid.Column="3"/>
 

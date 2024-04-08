@@ -1,10 +1,10 @@
-public class creatina : pinscher01
+namespace pou3;
 
-{ 
- plublic creatina() 
-
+public class creatina : dog1
 {
- poodol="creatina.jpg";
-}
-
+    public creatina()
+    {
+      Nomedafoto="ttt.jpg"
+    //agora faz o mesmo clocar o cod da class pai
+    
 }
