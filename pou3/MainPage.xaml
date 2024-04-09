@@ -10,7 +10,8 @@
            <Grid.RowDefinitions>
              <RowDefinition Height="30"/>
              <RowDefinition Height="*"/>
-             <RowDefinition Height="50"/>           
+             <RowDefinition Height="50"/>
+                             
            </Grid.RowDefinitions>
            <Grid.ColumnDefinitions>
              <ColumnDefinition Width="*"/>
@@ -23,19 +24,14 @@
 
             <Image Source="floresta.jpg"
                    Aspect="AspectFill"
-                   Grid.Row="0"
                    Grid.RowSpan="3"
                    Grid.ColumnSpan="4"/>
 
-            <Label Text="em ação animais fofos"
-                   TextColor="#e36905"
-                   FontFamily="Fonte.ttf"
-                   FontSize="50"
-                   HorizontalOptions="Center"
-                   HorizontalTextAlignment="Center"
-                   Grid.Row="1"
-                   Grid.ColumnSpan="4"/>
-  
+                     
+           <Image x:Name="imgpersonage"
+                  Aspect="Center"
+                  Grid.Row="1"
+                  Grid.ColumnSpan="3"/>
 
             <ImageButton Source="comida.png"                 
                    BackgroundColor="#1e8a03"
@@ -57,13 +53,9 @@
 
             <ImageButton Source="troca.png"           
                    BackgroundColor="#1e8a03"
+                   Clicked="botaotrocar"
                    Grid.Row="2"
                    Grid.Column="3" />
-      
-
-           <Image x:Name="imgpersonage"
-                  Grid.Row="1"
-                  Grid.Column="2"/>
 
               
 <Frame              x:Name="barras"
@@ -81,27 +73,41 @@
                    <RowDefinition Height="*"/>           
                  </Grid.RowDefinitions>        
                  <Grid.ColumnDefinitions>
+                     <ColumnDefinition Width="50"/>
                     <ColumnDefinition Width="*"/>
                  </Grid.ColumnDefinitions> 
-
-
-
+                   
+       <Image Source="tigela.png"           
+                    BackgroundColor="#1e8a03"
+                    Grid.Row="0"
+                    Grid.Column="0" />
+       
+       <Image Source="racao.png"           
+                    BackgroundColor="#1e8a03"
+                    Grid.Row="1"
+                    Grid.Column="0" />
+       
+       <Image Source="brinquedo.png"           
+                    BackgroundColor="#1e8a03"
+                    Grid.Row="2"
+                    Grid.Column="0" />
+       
        <ProgressBar x:Name="Progresscomida"
                     Progress="0.8" 
                     Grid.Row="0"
-                    Grid.Column="0"/>
+                    Grid.Column="1"/>
 
 
        <ProgressBar x:Name="Progressagua"
                     Progress="0.8"
                     Grid.Row="1"
-                    Grid.Column="0"/>
+                    Grid.Column="1"/>
                     
 
        <ProgressBar x:Name="Progressdiversao"
                     Progress="0.8" 
                     Grid.Row="2"
-                    Grid.Column="0"/>
+                    Grid.Column="1"/>
 
       
 </Grid>     
