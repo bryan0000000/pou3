@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="pou3.MainPage"
-             Shell.NavBarIsVisible="false">
+             Shell.NavBarIsVisible="false"/>
     
 
 <Grid>
@@ -37,30 +37,30 @@
                    Grid.ColumnSpan="4"/>
   
 
-            <ImageButton source="comida.png"                 
+            <ImageButton Source="comida.png"                 
                    BackgroundColor="#1e8a03"
-                   FontSize="20"
+                   
                    Grid.Row="2"
                    Grid.Column="0"/>
                    
   
-            <ImageButton source="gota.png"             
+            <ImageButton Source="gota.png"             
                    BackgroundColor="#1e8a03"
-                   FontSize="20"
+                   
                    Grid.Row="2"
                    Grid.Column="1" />
   
    
-            <ImageButton source="brincar.jpg"          
+            <ImageButton Source="brincar.jpg"          
                    BackgroundColor="#1e8a03"
-                   FontSize="20"
+              
                    Grid.Row="2"
                    Grid.Column="2" />
   
 
-            <ImageButton source="troca.png"           
+            <ImageButton Source="troca.png"           
                    BackgroundColor="#1e8a03"
-                   FontSize="20"
+                 
                    Grid.Row="2"
                    Grid.Column="3" />
       

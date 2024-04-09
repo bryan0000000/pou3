@@ -1,13 +1,13 @@
 namespace pou3;
 
-public class creatina : dog1
+public class boou : dog1
 {
-    public creatina()
+    public boou()
     {
-      nomedafoto="creatina.jpg"
+      nomedafoto="ttt.jpg"
       comida = 0.1;
       agua = 0.1;
       diversao = 0.9;
     
-}
+    }
 }

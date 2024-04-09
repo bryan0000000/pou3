@@ -4,7 +4,10 @@ public class pinscher01 : dog1
     protected String pinscher;
     public pinscher01()
     {
-        pinscher = "cachorrocomsandalia";
+        nomedaFoto="pinscher.png"
+        comida = 0.5;
+        agua = 0.5;
+        diversao = 0.1;
     }
 
 }

@@ -6,13 +6,14 @@ public partial class MainPage : ContentPage
 {
 
     dog1 atual;
+    boou susto;
     creatina poodol;
     pinscher01 pinscher;
     //_________________________________________________________________________
     public MainPage()
     {
         InitializeComponent();
-
+        susto = new boou();
         poodol = new creatina();
         pinscher = new pinscher01();
         atual = new dog1();
@@ -22,7 +23,7 @@ public partial class MainPage : ContentPage
         Progressdiversao.Progress= atual.diversao;
 
 
-        imgpersonage.Source = atual.();
+        imgpersonage.Source = atual.GetnomedaFoto();
     }
 
 }
