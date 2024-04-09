@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="pou3.MainPage"
-             Shell.NavBarIsVisible="false"/>
+             Shell.NavBarIsVisible="false">
     
 
 <Grid>
@@ -39,28 +39,24 @@
 
             <ImageButton Source="comida.png"                 
                    BackgroundColor="#1e8a03"
-                   
                    Grid.Row="2"
                    Grid.Column="0"/>
                    
   
             <ImageButton Source="gota.png"             
-                   BackgroundColor="#1e8a03"
-                   
+                   BackgroundColor="#1e8a03"    
                    Grid.Row="2"
                    Grid.Column="1" />
   
    
             <ImageButton Source="brincar.jpg"          
                    BackgroundColor="#1e8a03"
-              
                    Grid.Row="2"
                    Grid.Column="2" />
   
 
             <ImageButton Source="troca.png"           
                    BackgroundColor="#1e8a03"
-                 
                    Grid.Row="2"
                    Grid.Column="3" />
       
@@ -68,32 +64,47 @@
            <Image x:Name="imgpersonage"
                   Grid.Row="1"
                   Grid.Column="2"/>
-                     
+
+              
+<Frame              x:Name="barras"
+                    Padding="8"
+                    BackgroundColor="#1e8a03"
+                    CornerRadius="30"
+                    Margin="10,20"
+                    HeightRequest="170"
+                    Grid.ColumnSpan="4"
+                    VerticalOptions="Start">
+ <Grid>      
+                 <Grid.RowDefinitions>
+                   <RowDefinition Height="*"/>
+                   <RowDefinition Height="*"/>
+                   <RowDefinition Height="*"/>           
+                 </Grid.RowDefinitions>        
+                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                 </Grid.ColumnDefinitions> 
+
 
 
        <ProgressBar x:Name="Progresscomida"
                     Progress="0.8" 
-                    grid.row="0"
-                    Grid.Column="3"/>
+                    Grid.Row="0"
+                    Grid.Column="0"/>
 
 
        <ProgressBar x:Name="Progressagua"
                     Progress="0.8"
-                    grid.row="0"
-                    Grid.Column="3"/>
+                    Grid.Row="1"
+                    Grid.Column="0"/>
                     
 
        <ProgressBar x:Name="Progressdiversao"
                     Progress="0.8" 
-                    grid.row="0"
-                    Grid.Column="3"/>
+                    Grid.Row="2"
+                    Grid.Column="0"/>
 
       
-     
-
-
-
-
-
+</Grid>     
+</Frame>
 </Grid>
 </ContentPage>
