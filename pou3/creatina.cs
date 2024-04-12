@@ -4,10 +4,10 @@ public class creatina : dog1
 {
     public creatina()
     {
-      nomedaFoto="creatina.jpg";
+      nomedaFoto="creatina.png";
       
-      comida = 0.1;
-      agua = 0.1;
+      comida = 0.5;
+      agua = 0.5;
       diversao = 0.9;
     
 }

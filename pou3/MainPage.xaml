@@ -35,18 +35,21 @@
 
             <ImageButton Source="comida.png"                 
                    BackgroundColor="#1e8a03"
+                   Clicked="botaoComida"
                    Grid.Row="2"
                    Grid.Column="0"/>
                    
   
             <ImageButton Source="gota.png"             
-                   BackgroundColor="#1e8a03"    
+                   BackgroundColor="#1e8a03" 
+                   Clicked="botaoAgua"   
                    Grid.Row="2"
                    Grid.Column="1" />
   
    
-            <ImageButton Source="brincar.jpg"          
+            <ImageButton Source="brincar.png"          
                    BackgroundColor="#1e8a03"
+                   Clicked="botaoDivercao"
                    Grid.Row="2"
                    Grid.Column="2" />
   
@@ -62,6 +65,8 @@
                     Padding="8"
                     BackgroundColor="#1e8a03"
                     CornerRadius="30"
+                    Grid.Row="1"
+                    Grid.Column="3"
                     Margin="10,20"
                     HeightRequest="170"
                     Grid.ColumnSpan="4"

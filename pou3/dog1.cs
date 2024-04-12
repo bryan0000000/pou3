@@ -50,6 +50,21 @@ public class dog1
             diversao = 1;
     }
 
+public double Getagua()
+    {
+        return agua;
+        
+    }
+
+    public double Getcomida()
+    {
+        return comida;
+    }
+
+    public double Getdiversao()
+    {
+        return diversao;
+    }
 
 }
 

@@ -27,7 +27,13 @@ public partial class MainPage : ContentPage
        Progressagua.Progress= atual.agua;
        Progressdiversao.Progress= atual.diversao;
         
-
+//_______________________________________________________________________________
+      var timer = Application.Current.Dispatcher.CreateTimer();
+		timer.Interval = TimeSpan.FromSeconds(1);
+		timer.Tick += (s,e) => 
+		daquiprafrentesopratrais(); 
+		timer.Start();
+//_______________________________________________________________________________
     }
 
     void botaotrocar(object sender, EventArgs args)
@@ -47,23 +53,30 @@ public partial class MainPage : ContentPage
     
        imgpersonage.Source = atual.GetnomedaFoto();
     }
+void botaoComida(object sender, EventArgs args)
+    {
+       atual.setcomida(atual.Getcomida() + 0.2);
+      Progresscomida.Progress = atual.Getcomida();
 
-   void botaofome(object sender, EventArgs args)
-   	{
-      	atual.setcomida(atual.setcomida() + 0.1);
-		
-   	}
+    }
 
-      void botaoagua(object sender, EventArgs args)
-   	{
-      	atual.setagua(atual.setagua() + 0.1);
-	
-   	}
-      void botaodivercao(object sender, EventArgs args)
-   	{
-      	atual.setdiversao(atual.setdiversao() + 0.1);
-	
-   	}
-     
+      void botaoAgua(object sender, EventArgs args)
+    {
+       atual.setagua(atual.Getagua() + 0.2);
+         Progressagua.Progress= atual.Getagua();
+
+    }
+      void botaoDivercao(object sender, EventArgs args)
+    {
+       atual.setdiversao(atual.Getdiversao() + 0.2);
+        Progressdiversao.Progress= atual.Getdiversao();
 }
+void daquiprafrentesopratrais()
+{
 
+      atual.setcomida(atual.Getcomida() - 0.1);
+ 		atual.setagua(atual.Getagua() - 0.1);
+      atual.setdiversao(atual.Getdiversao () - 0.1);
+ 		
+}
+}

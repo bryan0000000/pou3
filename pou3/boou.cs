@@ -4,9 +4,9 @@ public class boou : dog1
 {
     public boou()
     {
-      nomedaFoto="ttt.jpg";
-      comida = 0.1;
-      agua = 0.1;
+      nomedaFoto="ttt.png";
+    comida = 0.5;
+      agua = 0.5;
       diversao = 0.9;
     
     }
